@@ -1,0 +1,13 @@
+import { __decorate } from "tslib";
+import { NgModule } from "@angular/core";
+import { SuperLibcomponent } from './super-lib.component';
+let SuperLibModule = class SuperLibModule {
+};
+SuperLibModule = __decorate([
+    NgModule({
+        declarations: [SuperLibcomponent],
+        exports: [SuperLibcomponent]
+    })
+], SuperLibModule);
+export { SuperLibModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3VwZXItbGliLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3N1cGVyLWxpYi8iLCJzb3VyY2VzIjpbInNyYy9zdXBlci1saWIubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxpQkFBaUIsRUFBRSxNQUFNLHVCQUF1QixDQUFDO0FBTTFELElBQWEsY0FBYyxHQUEzQixNQUFhLGNBQWM7Q0FBRyxDQUFBO0FBQWpCLGNBQWM7SUFKMUIsUUFBUSxDQUFDO1FBQ1IsWUFBWSxFQUFFLENBQUMsaUJBQWlCLENBQUM7UUFDakMsT0FBTyxFQUFFLENBQUMsaUJBQWlCLENBQUM7S0FDN0IsQ0FBQztHQUNXLGNBQWMsQ0FBRztTQUFqQixjQUFjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tIFwiQGFuZ3VsYXIvY29yZVwiO1xyXG5pbXBvcnQgeyBTdXBlckxpYmNvbXBvbmVudCB9IGZyb20gJy4vc3VwZXItbGliLmNvbXBvbmVudCc7XHJcblxyXG5ATmdNb2R1bGUoe1xyXG4gIGRlY2xhcmF0aW9uczogW1N1cGVyTGliY29tcG9uZW50XSxcclxuICBleHBvcnRzOiBbU3VwZXJMaWJjb21wb25lbnRdXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBTdXBlckxpYk1vZHVsZSB7fVxyXG4iXX0=
