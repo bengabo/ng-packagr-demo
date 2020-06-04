@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   // tslint:disable-next-line: component-selector
-  selector: 'super-lib-component',
-  template: '<p>"Hello from the library!"</p>'
+  selector: "super-lib-component",
+  templateUrl: 'super-lib.component.html',
 })
-
-export class SuperLibcomponent {}
+export class SuperLibComponent {}

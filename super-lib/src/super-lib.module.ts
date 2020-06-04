@@ -1,8 +1,8 @@
-import { NgModule } from "@angular/core";
-import { SuperLibcomponent } from './super-lib.component';
+import { NgModule } from '@angular/core';
+import { SuperLibComponent } from './super-lib.component';
 
 @NgModule({
-  declarations: [SuperLibcomponent],
-  exports: [SuperLibcomponent]
+  declarations: [SuperLibComponent],
+  exports: [SuperLibComponent]
 })
 export class SuperLibModule {}

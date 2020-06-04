@@ -1,17 +1,17 @@
 import { __decorate } from 'tslib';
 import { Component, NgModule } from '@angular/core';
 
-var SuperLibcomponent = /** @class */ (function () {
-    function SuperLibcomponent() {
+var SuperLibComponent = /** @class */ (function () {
+    function SuperLibComponent() {
     }
-    SuperLibcomponent = __decorate([
+    SuperLibComponent = __decorate([
         Component({
             // tslint:disable-next-line: component-selector
-            selector: 'super-lib-component',
-            template: '<p>"Hello from the library!"</p>'
+            selector: "super-lib-component",
+            template: "<h3>Hello from an external template!</h3>\r\n"
         })
-    ], SuperLibcomponent);
-    return SuperLibcomponent;
+    ], SuperLibComponent);
+    return SuperLibComponent;
 }());
 
 var SuperLibModule = /** @class */ (function () {
@@ -19,8 +19,8 @@ var SuperLibModule = /** @class */ (function () {
     }
     SuperLibModule = __decorate([
         NgModule({
-            declarations: [SuperLibcomponent],
-            exports: [SuperLibcomponent]
+            declarations: [SuperLibComponent],
+            exports: [SuperLibComponent]
         })
     ], SuperLibModule);
     return SuperLibModule;
@@ -30,5 +30,5 @@ var SuperLibModule = /** @class */ (function () {
  * Generated bundle index. Do not edit.
  */
 
-export { SuperLibModule, SuperLibcomponent };
+export { SuperLibComponent, SuperLibModule };
 //# sourceMappingURL=super-lib.js.map

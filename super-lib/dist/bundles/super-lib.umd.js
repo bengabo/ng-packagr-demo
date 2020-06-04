@@ -218,17 +218,17 @@
         return value;
     }
 
-    var SuperLibcomponent = /** @class */ (function () {
-        function SuperLibcomponent() {
+    var SuperLibComponent = /** @class */ (function () {
+        function SuperLibComponent() {
         }
-        SuperLibcomponent = __decorate([
+        SuperLibComponent = __decorate([
             core.Component({
                 // tslint:disable-next-line: component-selector
-                selector: 'super-lib-component',
-                template: '<p>"Hello from the library!"</p>'
+                selector: "super-lib-component",
+                template: "<h3>Hello from an external template!</h3>\r\n"
             })
-        ], SuperLibcomponent);
-        return SuperLibcomponent;
+        ], SuperLibComponent);
+        return SuperLibComponent;
     }());
 
     var SuperLibModule = /** @class */ (function () {
@@ -236,15 +236,15 @@
         }
         SuperLibModule = __decorate([
             core.NgModule({
-                declarations: [SuperLibcomponent],
-                exports: [SuperLibcomponent]
+                declarations: [SuperLibComponent],
+                exports: [SuperLibComponent]
             })
         ], SuperLibModule);
         return SuperLibModule;
     }());
 
+    exports.SuperLibComponent = SuperLibComponent;
     exports.SuperLibModule = SuperLibModule;
-    exports.SuperLibcomponent = SuperLibcomponent;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
